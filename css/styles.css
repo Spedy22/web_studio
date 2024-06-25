@@ -1,0 +1,137 @@
+:root {
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navy-blue: #2e2f42;
+  --green: #31d0aa;
+  --slate: #434455;
+  --light-slate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --navy-blue-modal: rgba(46, 47, 66, 0.4);
+  --grey: rgba(46, 47, 66, 0.7);
+}
+
+/* header */
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: var(--iris);
+  cursor: pointer;
+}
+
+.logo-black {
+  color: var(--navy-blue);
+}
+.logo-white {
+  color: var(--cloud);
+}
+
+.navigation {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--navy-blue);
+  cursor: pointer;
+}
+
+.address {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--slate);
+}
+
+/* main */
+.hero-section {
+  background-color: var(--navy-blue);
+}
+
+.hero-section h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 56px;
+  text-align: center;
+  color: #ffffff;
+
+}
+
+.button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: var(--iris);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus{
+    background-color: var(--ocean);
+}
+
+.privileges h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: var(--navy-blue);
+}
+
+.privileges p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--slate);
+}
+
+.headers {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  text-transform: capitalize;
+  text-align: center;
+  color: var(--navy-blue);
+}
+
+.team {
+  background-color: var(--cloud);
+}
+
+.team-cards {
+  background-color: #ffffff;
+}
+
+.team-cards h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  color: var(--navy-blue);
+}
+
+.team-cards p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: var(--slate);
+}
+
+/* footer */
+.footer {
+  background-color: var(--navy-blue);
+}
+
+.footer p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--cornflower);
+}
+
+
+/* portfolio */
+/* main */
+
