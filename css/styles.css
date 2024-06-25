@@ -16,6 +16,7 @@
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
+  line-height: 1.33;
   text-transform: uppercase;
   color: var(--iris);
   cursor: pointer;
@@ -36,12 +37,18 @@
   cursor: pointer;
 }
 
+.navigation:active,
+.address:active{
+  color: var(--ocean);
+}
+
 .address {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   color: var(--slate);
 }
+
 
 /* main */
 .hero-section {
@@ -52,30 +59,32 @@
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 56px;
+  line-height: 1.11;
   text-align: center;
   color: #ffffff;
-
 }
 
-.button {
+.button-hero {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
+  line-height: 1.18;
   color: #ffffff;
   background-color: var(--iris);
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   cursor: pointer;
 }
 
-.button:hover,
-.button:focus{
-    background-color: var(--ocean);
+.button-hero:hover,
+.button-hero:focus {
+  background-color: var(--ocean);
 }
 
 .privileges h3 {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
+  line-height: 1.11;
   color: var(--navy-blue);
 }
 
@@ -83,6 +92,7 @@
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
+  line-height: 1.5;
   color: var(--slate);
 }
 
@@ -90,6 +100,7 @@
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
+  line-height: 1.11;
   text-transform: capitalize;
   text-align: center;
   color: var(--navy-blue);
@@ -107,6 +118,7 @@
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
+  line-height: 1.2;
   text-align: center;
   color: var(--navy-blue);
 }
@@ -115,6 +127,7 @@
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
+  line-height: 1.5;
   text-align: center;
   color: var(--slate);
 }
@@ -128,10 +141,62 @@
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
+  line-height: 1.5;
   color: var(--cornflower);
 }
-
 
 /* portfolio */
 /* main */
 
+.filter {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--cloud);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: var(--iris);
+}
+
+.filter:hover,
+.filter:focus {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--ocean);
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  color: #ffffff;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.08),
+    0 3px 1px 0 rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.filter-cards h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--navy-blue);
+}
+
+.filter-cards p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--slate);
+}
+
+/* visaulity hidden */
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+} 
