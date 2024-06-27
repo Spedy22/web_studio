@@ -29,7 +29,7 @@
   color: var(--cloud);
 }
 
-.navigation {
+.navigation-link {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -38,12 +38,12 @@
   cursor: pointer;
 }
 
-.navigation:active,
-.address:active{
+.navigation-link:active,
+.address-link:active{
   color: var(--ocean);
 }
 
-.address {
+.address-link {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -83,7 +83,7 @@
   background-color: var(--ocean);
 }
 
-.privileges h3 {
+.privileges-list h3 {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
@@ -91,7 +91,7 @@
   color: var(--navy-blue);
 }
 
-.privileges p {
+.privileges-list p {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
