@@ -130,6 +130,7 @@ p {
 
 
 .hero-section {
+
   padding-top: 188px;
   padding-bottom: 188px;
   width: 1440px;
@@ -152,6 +153,7 @@ p {
 }
 
 .hero-headers {
+  
   width: 500px;
   margin-bottom: 48px;
   margin-right: auto;
@@ -270,8 +272,9 @@ p {
 }
 
 .team {
-  background-color: var(--cloud);
+  padding-top: 120px;
   padding-bottom: 120px;
+  background-color: var(--cloud);
 }
 
 .team h2 {
@@ -288,7 +291,7 @@ p {
   justify-content: space-between;
 }
 
-.team-cards h3 {
+.team-cards h6 {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
@@ -313,7 +316,7 @@ p {
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
-.team-cards-footer h3 {
+.team-cards-footer h6 {
   margin-bottom: 8px;
 }
 
@@ -335,10 +338,91 @@ p {
 
 }
 
+.team-list__link{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: var(--iris);
+
+}
+
+.team-list__link:hover,
+.team-list__link:focus {
+  background-color: var(--ocean);
+
+}
+
+
 .team-cards-icon{
   cursor: pointer;
   width: 40px;
   height: 40px;
+  padding: 12px;
+}
+
+
+
+.company{
+  padding-top: 130px;
+  padding-bottom: 120px;
+}
+
+.company__title{
+   font-family: "Roboto", sans-serif;
+  font-weight: 700;
+font-size: 36px;
+line-height: 111%;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+text-align: center;
+color: var(--navy-blue);
+margin-bottom: 72px;
+
+
+}
+
+.company__list{
+  display: flex;
+  justify-content: space-between;
+  width: 1128px;
+}
+
+.company__link{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 168px;
+  height: 88px;
+  border: 1px solid var(--light-slate);
+  border-radius: 4px;
+}
+
+
+.company__logo{
+ width: 168px;
+  height: 88px;
+  fill: var(--light-slate);
+  padding: 16px 32px;
+
+}
+
+.company__logo:hover, 
+.company__logo:active,
+.company__logo:focus{
+  fill: var(--ocean);
+} 
+
+.company__link:hover,
+.company__link:focus,
+.company__link:active{
+  border-color: 1px solid var(--ocean);
+  
+  
+}
+
+.test:focus{
+  fill: #31d0aa;
 }
 
 /* footer */
@@ -432,7 +516,6 @@ p {
 .filter-cards {
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: center; */
 }
 
 .filter-cards h3 {
