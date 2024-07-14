@@ -291,7 +291,7 @@ p {
   justify-content: space-between;
 }
 
-.team-cards h6 {
+.team-cards h3 {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
@@ -316,7 +316,7 @@ p {
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
-.team-cards-footer h6 {
+.team-cards-footer h3 {
   margin-bottom: 8px;
 }
 
@@ -407,27 +407,24 @@ margin-bottom: 72px;
 
 }
 
-.company__logo:hover, 
-.company__logo:active,
-.company__logo:focus{
+.company__link:hover, 
+.company__link:active,
+.company__link:focus{
   fill: var(--ocean);
+  border: 1px solid var(--ocean);
 } 
 
-.company__link:hover,
-.company__link:focus,
-.company__link:active{
+.company__link:hover .company__logo,
+.company__link:focus .company__logo,
+.company__link:active .company__logo{
   border-color: 1px solid var(--ocean);
-  
-  
-}
-
-.test:focus{
-  fill: #31d0aa;
+  fill: var(--ocean);  
 }
 
 /* footer */
 .footer {
   background-color: var(--navy-blue);
+  
 }
 
 .footer p {
@@ -441,11 +438,16 @@ margin-bottom: 72px;
 .footer-container {
   padding-top: 100px;
   padding-bottom: 100px;
+  display: flex;
 }
 
 .footer-container p {
   width: 264px;
   margin-top: 16px;
+}
+
+.footer__box{
+  margin-right: 120px;
 }
 
 .logo-footer {
@@ -457,6 +459,47 @@ margin-bottom: 72px;
 
   color: var(--iris);
   cursor: pointer;
+}
+
+.footer__title{
+  font-family: var(--font-family);
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.02em;
+color: #fff;
+margin-bottom: 16px;
+}
+
+.footer__list{
+  width: 208px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-list__link {
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  
+}
+
+.footer-list__link:hover,
+.footer-list__link:focus,
+.footer-list__link:active{
+  background-color: var(--green);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+
+.footer__icon{
+  width: 24px;
+  height: 24px;
 }
 
 /* portfolio */
@@ -537,6 +580,12 @@ margin-bottom: 72px;
 .filter-item {
   margin-right: 24px;
   margin-bottom: 48px;
+  box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+
+.filter-item:hover{
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+
 }
 
 .filter-item img {
