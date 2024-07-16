@@ -241,10 +241,8 @@ p {
 }
 
 .work {
-  width: 1128px;
+  width: 1158px;
   padding-bottom: 120px;
-  padding-right: 0;
-  padding-left: 0;
 }
 
 .work-list {
@@ -273,13 +271,10 @@ p {
 
 .team {
   padding-top: 120px;
-  padding-bottom: 120px;
+  padding-bottom: 110px;
   background-color: var(--cloud);
 }
 
-.team h2 {
-  padding-top: 120px;
-}
 .team-container {
   width: 1128px;
   margin-right: auto;
@@ -314,6 +309,10 @@ p {
   background-color: #ffffff;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+
+.team-image{
+  display: block;
 }
 
 .team-cards-footer h3 {
