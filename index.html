@@ -19,11 +19,10 @@
   </head>
   <body>
     <header class="header">
-      <div class="container header-container">
+      <div class="container outline header-container">
         <a href="./index.html" class="logo"
-          >Web<span class="logo-black">Studio</span></a
-        >
-        <nav>
+          >Web<span class="logo-black">Studio</span></a>
+        <nav class="hidden">
           <ul class="navigation-list">
             <li class="header-link">
               <a href="./index.html" class="navigation-link line navigation-link_active">Studio</a>
@@ -44,12 +43,13 @@
             >+11 (000) 111-11-11</a
           >
         </address>
-      </div>
     </header>
     <main>
       <section class="hero-section">
-        <h1 class="hero-headers">Effective Solutions for Your Business</h1>
-        <button data-modal-open type="button" class="button-hero">Order Service</button>
+        <div class="container">
+          <h1 class="hero-headers">Effective Solutions for Your Business</h1>
+          <button data-modal-open type="button" class="button-hero">Order Service</button>
+        </div>
       </section>
 
       <section class="container privileges">
@@ -136,8 +136,8 @@
         </ul>
       </section>
       <section class="team">
-        <h2 class="headers">Our Team</h2>
         <div class="team-container">
+          <h2 class="headers">Our Team</h2>
           <ul class="team-cards">
             <li class="team-item">
               <img class="team-image"
@@ -309,42 +309,42 @@
       <section class="container company">
         <h2 class="company__title">Customers</h2>
         <ul class="company__list">
-          <li>
+          <li class="company-item">
             <a class="company__link" href="#">
               <svg class="company__logo">
                 <use href="./images/icons.svg#icon-logo-one"></use>
               </svg>
             </a>
           </li>
-          <li>
+          <li class="company-item">
             <a class="company__link" href="#">
               <svg class="company__logo">
                 <use href="./images/icons.svg#icon-logo-two"></use>
               </svg>
             </a>
           </li>
-          <li>
+          <li class="company-item">
             <a class="company__link" href="#">
               <svg class="company__logo">
                 <use href="./images/icons.svg#icon-logo-three"></use>
               </svg>
             </a>
           </li>
-          <li>
+          <li class="company-item">
             <a class="company__link" href="#">
               <svg class="company__logo">
                 <use href="./images/icons.svg#icon-logo-four"></use>
               </svg>
             </a>
           </li>
-          <li>
+          <li class="company-item">
             <a class="company__link" href="#">
               <svg class="company__logo">
                 <use href="./images/icons.svg#icon-logo-five"></use>
               </svg>
             </a>
           </li>
-          <li>
+          <li class="company-item">
             <a class="company__link" href="#">
               <svg class="company__logo">
                 <use href="./images/icons.svg#icon-logo-six"></use>
@@ -458,21 +458,13 @@
         </div>
       </div>
     </footer>
-    <script>
- (() => {
-   const refs = {
-     openModalBtn: document.querySelector("[data-modal-open]"),
-     closeModalBtn: document.querySelector("[data-modal-close]"),
-     modal: document.querySelector("[data-modal]"),
-   };
- 
-   refs.openModalBtn.addEventListener("click", toggleModal);
-   refs.closeModalBtn.addEventListener("click", toggleModal);
- 
-   function toggleModal() {
-     refs.modal.classList.toggle("is-hidden");
-   }
- })();
-    </script>
+      <script src="./js/modal-menu.js"></script>
+     <script src="./js/modal.js"></script>
   </body>
 </html>
+
+
+
+
+
+
