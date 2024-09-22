@@ -624,9 +624,18 @@ p {
     font-weight: 700;
     font-size: 36px;
     line-height: 111%;
+    
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--navy-blue);
+
+  }
+
+  @media screen and (max-width:767px) {
+    .privileges-list h3{
+      text-align: center;
+    }
+    
   }
 
   .privileges-list p {
