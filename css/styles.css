@@ -631,7 +631,7 @@ p {
 
   }
 
-  @media screen and (max-width:767px) {
+  @media screen and ( max-width:767px ) {
     .privileges-list h3{
       text-align: center;
     }
