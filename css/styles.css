@@ -44,6 +44,10 @@ p {
 
 /* MINI-PHONE */
 
+.modal{
+  max-width: calc(100% - 24px);
+}
+
 @media screen and (max-width: 427px) {
   
 
@@ -55,9 +59,7 @@ p {
   }
  
   /* MODAL */
-  .modal{
-    max-width: calc(100% - 24px);
-  }
+  
 
 
   /* HEADER */
