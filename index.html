@@ -21,14 +21,22 @@
     <header class="header">
       <div class="container outline header-container">
         <a href="./index.html" class="logo"
-          >Web<span class="logo-black">Studio</span></a>
-        <nav class="hidden">
+          >Web<span class="logo-black">Studio</span></a
+        >
+        
+        <nav>
           <ul class="navigation-list">
             <li class="header-link">
-              <a href="./index.html" class="navigation-link line navigation-link_active">Studio</a>
+              <a
+                href="./index.html"
+                class="navigation-link line navigation-link_active"
+                >Studio</a
+              >
             </li>
             <li class="header-link">
-              <a href="./portfolio.html" class="navigation-link">Portfolio</a>
+              <a href="./portfolio.html" class="navigation-link"
+                >Portfolio</a
+              >
             </li>
             <li class="header-link">
               <a href="#" class="navigation-link">Contacts</a>
@@ -43,12 +51,23 @@
             >+11 (000) 111-11-11</a
           >
         </address>
+      </div>
+      <!-- <svg data-modal-open-1 class="navigation-icon">
+        <use href="./images/icons.svg#icon-burger"></use>
+      </svg> -->
+
+
     </header>
+
+
+
     <main>
       <section class="hero-section">
-        <div class="container">
+        <div>
           <h1 class="hero-headers">Effective Solutions for Your Business</h1>
-          <button data-modal-open type="button" class="button-hero">Order Service</button>
+          <button data-modal-open type="button" class="button-hero">
+            Order Service
+          </button>
         </div>
       </section>
 
@@ -111,26 +130,38 @@
         <ul class="work-list">
           <li class="work-item">
             <img
-              src="./images/computer.jpg"
+              srcset="
+                ./images/work/computerX360.jpg  1x,
+                ./images/work/computerX720.jpg  2x,
+                ./images/work/computerX1080.jpg 3x
+              "
+              src="./images/work/computerX360.jpg"
               alt="computer"
               width="360"
-              height="300"
             />
           </li>
           <li class="work-item">
             <img
-              src="./images/phone.jpg"
+              srcset="
+                ./images/work/phoneX360.jpg  1x,
+                ./images/work/phoneX720.jpg  2x,
+                ./images/work/phoneX1080.jpg 3x
+              "
+              src="./images/work/phoneX360.jpg"
               alt="phone"
               width="360"
-              height="300"
             />
           </li>
           <li class="work-item">
             <img
-              src="./images/phoneandpc.jpg"
+              srcset="
+                ./images/work/phonepcX360.jpg  1x,
+                ./images/work/phonepcX720.jpg  2x,
+                ./images/work/phonepcX1080.jpg 3x
+              "
+              src="./images/work/phonepcX360.jpg"
               alt="phone and computer"
               width="360"
-              height="300"
             />
           </li>
         </ul>
@@ -140,11 +171,16 @@
           <h2 class="headers">Our Team</h2>
           <ul class="team-cards">
             <li class="team-item">
-              <img class="team-image"
-                src="./images/photomark.jpg"
+              <img
+                class="team-image"
+                srcset="
+                  ./images/people/markX264.jpg 1x,
+                  ./images/people/markX528.jpg 2x,
+                  ./images/people/markX792.jpg 3x
+                "
+                src="./images/people/markX264.jpg"
                 alt="photo team"
                 width="264"
-                height="260"
               />
               <div class="team-cards-footer">
                 <h3>Mark Guerrero</h3>
@@ -160,7 +196,8 @@
                   <li>
                     <a class="team-list__link" href="https://x.com/?lang=ru"
                       ><svg class="team-cards-icon">
-                        <use href="./images/icons.svg#icon-twitter"></use></svg>
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
                     </a>
                   </li>
                   <li>
@@ -181,11 +218,16 @@
               </div>
             </li>
             <li class="team-item">
-              <img class="team-image"
-                src="./images/phototom.jpg"
+              <img
+                class="team-image"
+                srcset="
+                  ./images/people/tomX264.jpg 1x,
+                  ./images/people/tomX528.jpg 2x,
+                  ./images/people/tomX792.jpg 3x
+                "
+                src="./images/people/tomX264.jpg"
                 alt="photo team"
                 width="264"
-                height="260"
               />
               <div class="team-cards-footer">
                 <h3>Tom Ford</h3>
@@ -201,7 +243,8 @@
                   <li>
                     <a class="team-list__link" href="https://x.com/?lang=ru"
                       ><svg class="team-cards-icon">
-                        <use href="./images/icons.svg#icon-twitter"></use></svg>
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
                     </a>
                   </li>
                   <li>
@@ -222,11 +265,16 @@
               </div>
             </li>
             <li class="team-item">
-              <img class="team-image"
-                src="./images/photocamila.jpg"
+              <img
+                class="team-image"
+                srcset="
+                  ./images/people/camilaX264.jpg 1x,
+                  ./images/people/camilaX528.jpg 2x,
+                  ./images/people/camilaX792.jpg 3x
+                "
+                src="./images/people/camilaX264.jpg"
                 alt="photo team"
                 width="264"
-                height="260"
               />
               <div class="team-cards-footer">
                 <h3>Camila Garcia</h3>
@@ -242,7 +290,8 @@
                   <li>
                     <a class="team-list__link" href="https://x.com/?lang=ru"
                       ><svg class="team-cards-icon">
-                        <use href="./images/icons.svg#icon-twitter"></use></svg>
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
                     </a>
                   </li>
                   <li>
@@ -263,11 +312,16 @@
               </div>
             </li>
             <li class="team-item">
-              <img class="team-image"
-                src="./images/photodaniel.jpg"
+              <img
+                class="team-image"
+                srcset="
+                  ./images/people/danielX264.jpg 1x,
+                  ./images/people/danielX528.jpg 2x,
+                  ./images/people/danielX792.jpg 3x
+                "
+                src="./images/people/danielX264.jpg"
                 alt="photo team"
                 width="264"
-                height="260"
               />
               <div class="team-cards-footer">
                 <h3>Daniel Wilson</h3>
@@ -283,7 +337,8 @@
                   <li>
                     <a class="team-list__link" href="https://x.com/?lang=ru"
                       ><svg class="team-cards-icon">
-                        <use href="./images/icons.svg#icon-twitter"></use></svg>
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
                     </a>
                   </li>
                   <li>
@@ -360,111 +415,152 @@
               <use href="./images/icons.svg#icon-close"></use>
             </svg>
           </button>
-          <p class="modal__suptitle">Leave your contacts and we will call you back</p>
+          <p class="modal__suptitle">
+            Leave your contacts and we will call you back
+          </p>
           <form class="modal__form">
             <label class="modal__label">
               <span class="modal__label-span">Name</span>
               <span class="modal__label-box">
-                <input required pattern="[a-zA-Zа-яА-ЯіІїЇ]+" minlength="2" class="modal__label-input" type="text" name="user-name">
-                <svg class="modal__label-icon person"><use href="./images/icons.svg#icon-icon-person"></use></svg>
+                <input
+                  required
+                  pattern="[a-zA-Zа-яА-ЯіІїЇ]+"
+                  minlength="2"
+                  class="modal__label-input"
+                  type="text"
+                  name="user-name"
+                />
+                <svg class="modal__label-icon person">
+                  <use href="./images/icons.svg#icon-icon-person"></use>
+                </svg>
               </span>
             </label>
 
             <label class="modal__label">
               <span class="modal__label-span">Phone</span>
               <span class="modal__label-box">
-                <input required minlength="10" pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" title="xxx-xxx-xx-xx" class="modal__label-input" type="tel" name="user-phone">
-                <svg class="modal__label-icon tell"><use href="./images/icons.svg#icon-icon-phone"></use></svg>
+                <input
+                  required
+                  minlength="10"
+                  pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+                  title="xxx-xxx-xx-xx"
+                  class="modal__label-input"
+                  type="tel"
+                  name="user-phone"
+                />
+                <svg class="modal__label-icon tell">
+                  <use href="./images/icons.svg#icon-icon-phone"></use>
+                </svg>
               </span>
             </label>
 
             <label class="modal__label">
               <span class="modal__label-span">Email</span>
               <span class="modal__label-box">
-                <input required minlength="10" class="modal__label-input" type="email" name="user-email">
-                <svg class="modal__label-icon email"><use href="./images/icons.svg#icon-email"></use></svg>
+                <input
+                  required
+                  minlength="10"
+                  class="modal__label-input"
+                  type="email"
+                  name="user-email"
+                />
+                <svg class="modal__label-icon email">
+                  <use href="./images/icons.svg#icon-email"></use>
+                </svg>
               </span>
             </label>
 
             <label class="modal__label">
               <span class="modal__label-span">Comment</span>
-              <textarea class="modal__label-input text" type="text" name="user-text" placeholder="Text input" ></textarea>
+              <textarea
+                class="modal__label-input text"
+                type="text"
+                name="user-text"
+                placeholder="Text input"
+              ></textarea>
             </label>
 
             <label class="modal__checkbox">
-              <input class="checkbox" type="checkbox" name="user-checkbox">
-              <svg class="modal__label-icon-tick tick" ><use href="./images/icons.svg#icon-tick"></use></svg>
-              <span class="modal__checkbox-subtitle">I accept the terms and conditions of the <a href="#">Privacy Policy</a></span>
+              <input class="checkbox" type="checkbox" name="user-checkbox" />
+              <svg class="modal__label-icon-tick tick">
+                <use href="./images/icons.svg#icon-tick"></use>
+              </svg>
+              <span class="modal__checkbox-subtitle"
+                >I accept the terms and conditions of the
+                <a href="#">Privacy Policy</a></span
+              >
             </label>
-            <button type="submit" class="modal__button-send" >Send</button>
+            <button type="submit" class="modal__button-send">Send</button>
           </form>
-          
         </div>
       </div>
     </main>
     <footer class="footer">
       <div class="footer-container container">
-          <div class="footer__box">
-            <a href="./index.html" class="logo-footer">Web<span class="logo-white">Studio</span></a>
-            <p>
-              Increase the flow of customers and sales for your business with
-              digital marketing & growth solutions.
-            </p>
-          </div>
-      
+        <div class="footer__box">
+          <a href="./index.html" class="logo-footer"
+            >Web<span class="logo-white">Studio</span></a
+          >
+          <p>
+            Increase the flow of customers and sales for your business with
+            digital marketing & growth solutions.
+          </p>
+        </div>
+
         <div class="social-media-box">
           <h3 class="footer__title">Social media</h3>
-                <ul class="footer__list">
-                  <li>
-                    <a class="footer-list__link" href="https://www.instagram.com/"
-                      ><svg class="footer__icon">
-                        <use href="./images/icons.svg#icon-instagram"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li>
-                    <a class="footer-list__link" href="https://x.com/?lang=ru"
-                      ><svg class="footer__icon">
-                        <use href="./images/icons.svg#icon-twitter"></use></svg>
-                    </a>
-                  </li>
-                  <li>
-                    <a class="footer-list__link" href="https://www.facebook.com/">
-                      <svg class="footer__icon">
-                        <use href="./images/icons.svg#icon-facebook"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li>
-                    <a class="footer-list__link" href="https://ua.linkedin.com/">
-                      <svg class="footer__icon">
-                        <use href="./images/icons.svg#icon-linkedin"></use>
-                      </svg>
-                    </a>
-                  </li>
-                </ul>
+          <ul class="footer__list">
+            <li>
+              <a class="footer-list__link" href="https://www.instagram.com/"
+                ><svg class="footer__icon">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="footer-list__link" href="https://x.com/?lang=ru"
+                ><svg class="footer__icon">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="footer-list__link" href="https://www.facebook.com/">
+                <svg class="footer__icon">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="footer-list__link" href="https://ua.linkedin.com/">
+                <svg class="footer__icon">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
         </div>
         <div class="footer-input-box">
           <h3 class="footer__title sub">Subscribe</h3>
-            <form class="footer__title-form">
-              <input minlength="10" class="footer-input" type="email" name="user-email" placeholder="E-mail">
-              <button type="submit" class="footer-subscribe">
+          <form class="footer__title-form">
+            <input
+              minlength="10"
+              class="footer-input"
+              type="email"
+              name="user-email"
+              placeholder="E-mail"
+            />
+            <button type="submit" class="footer-subscribe">
               <span class="footer-subscribe-span">Subscribe</span>
               <svg class="footer-subscribe-img">
                 <use href="./images/icons.svg#icon-telegram"></use>
               </svg>
             </button>
-            </form>
+          </form>
         </div>
       </div>
     </footer>
-      <script src="./js/modal-menu.js"></script>
-     <script src="./js/modal.js"></script>
+    <script src="./js/modal-menu.js"></script>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
-
-
-
-
-
-
